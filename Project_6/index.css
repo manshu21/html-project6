@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: rgb(51, 48, 48);
+  background-color: #f5fbff;
+}
+.img {
+  display: flex;
+}
+.container {
+  display: flex;
+  height: 100vh;
+}
+.heading {
+  font-size: 36px;
+  font-family: cursive;
+  text-indent: 30px;
+}
+.email-box,
+.passward-box {
+  background-color: white;
+  border: none;
+  border-radius: 4px;
+  height: 40px;
+  width: 260px;
+}
+.para1,
+.para2,
+.para3,
+.para5 {
+  font-size: 13px;
+  padding: 4px;
+}
+.btn {
+  background-color: rgb(59, 59, 255);
+  height: 40px;
+  width: 260px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+span {
+  color: rgb(59, 59, 255);
+}
+.para4 {
+  /* display: flex; */
+  padding: 20px;
+  margin: 20px;
+  align-content: center;
+}
+.para1 {
+  text-indent: 35px;
+}
+
+.para5 {
+  text-indent: 150px;
+}
+.form-right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 150px;
+  width: 50%;
+}
